@@ -1,0 +1,59 @@
+.intro {
+    position: relative;
+    z-index: 900;
+    max-width: 1920px;
+    color: #fff;
+    margin: 0 auto;
+    padding: 0 68px 278px 68px;
+}
+
+.intro__video {
+    position: absolute;
+    top: -240px;
+    left: 0;
+    width: 100%;
+    max-width: 1920px;
+}
+
+.intro__video-overlay {
+    overflow: hidden;
+    z-index: 990;
+    position: absolute;
+    top: -200px;
+    left: 0;
+    width: 100%;
+    height: calc(100% + 100px);
+    background: rgba(0,0,0,.4);
+}
+
+.intro__inner {
+    padding: 208px 0 0 0;
+    position: relative;
+    z-index: 1000;
+}
+
+.intro__logo {
+    width: 60px;
+}
+
+.intro__title {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.intro__subtitle {
+    font-size: 24px;
+}
+
+.intro__button {
+    font-size: 16px;
+    color: #00caf0;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 8px 0 0;
+    margin: 24px 0 0 0;
+}
+
+.intro__chevron {
+    width: 12px;
+}
