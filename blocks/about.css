@@ -4,6 +4,18 @@
     display: none;
 }
 
-#prime {
+#prime, #about {
     display: block;
+}
+
+@media screen and (max-width: 1279px) {
+   .about {
+       padding: 52px 0;
+   } 
+}
+
+@media screen and (max-width: 767px) {
+    .about {
+        padding: 40px 0;
+    }
 }
