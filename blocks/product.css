@@ -1,5 +1,10 @@
 .product {
     padding: 100px 0;
+    display: none;
+}
+
+#prime-prod {
+    display: block;
 }
 
 .product__items {
@@ -44,3 +49,4 @@
 .product-item__link:hover {
     text-decoration: none;
 }
+

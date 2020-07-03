@@ -1,4 +1,9 @@
 .about {
     padding: 100px 0;
     background: #f9f9f9;
+    display: none;
+}
+
+#prime {
+    display: block;
 }
